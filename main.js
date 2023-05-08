@@ -1,1 +1,1 @@
-console.log("Hello, is me, a Mario!");
+(()=>{console.log("Hello, is me, a Mario! im an italian short fella");const e=document.querySelector("#content");!function(){const t=document.createElement("h1");t.textContent("Welcome to FNS!"),t.classList.add("heading"),e.appendChild(t)}(),document.body.appendChild(e)})();
