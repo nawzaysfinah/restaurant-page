@@ -4,6 +4,9 @@ body {
     rgb(187, 247, 208),
     rgb(34, 197, 94)
   );
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "sans-serif";
 }
 
 #content {
@@ -12,8 +15,6 @@ body {
   align-items: center;
   /* justify-content: center; */
   min-height: 100vh;
-  margin: 0px;
-  padding: 0px;
   text-align: center;
 }
 
@@ -21,11 +22,38 @@ body {
   margin: 25px;
 }
 
+.image {
+  margin: 25px;
+}
+
+/* Navbar */
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+  align-items: center;
+  height: 50px;
+}
+li {
+  display: flex;
+  height: 40px;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: maroon;
+  border: solid 1px rgb(187, 247, 208, 0.5);
+  box-shadow: 3px 3px #65a30d;
+  cursor: pointer;
+}
+
+/* Home */
 .landing-page-copy,
 .subtitle,
 h1 {
   color: whitesmoke;
-  font-family: "Roboto", "sans-serif";
   width: 50%;
 }
 

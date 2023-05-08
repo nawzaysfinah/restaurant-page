@@ -1,6 +1,9 @@
 export function initialPageLoad() {
   const contentDiv = document.querySelector("#content");
 
+  //  Remove any existing DOM children if present
+  contentDiv.replaceChildren();
+
   const heading = document.createElement("h1");
   heading.textContent = "Fermentation Nation Station";
   heading.classList.add("landing-title");
