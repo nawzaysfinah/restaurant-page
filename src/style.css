@@ -25,6 +25,7 @@ body {
 
 .image {
   margin: 25px;
+  width: 20%;
 }
 
 /* Navbar */
@@ -58,6 +59,11 @@ h1 {
   width: 50%;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .landing-page-copy {
   font-size: 24px;
   font-weight: 300;
