@@ -1,3 +1,5 @@
+import phone from "../src/assets/phone.png";
+
 export function contact() {
   const contentDiv = document.querySelector("#content");
 
@@ -13,7 +15,7 @@ export function contact() {
   // DOM for some food
   const phoneImage = document.createElement("img");
   phoneImage.classList.add("image");
-  phoneImage.src = "../src/assets/phone.png";
+  phoneImage.src = phone;
   phoneImage.alt = "Phone!";
   contentDiv.appendChild(phoneImage);
 

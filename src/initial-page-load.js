@@ -1,3 +1,5 @@
+import germ from "../src/assets/germ.png";
+
 export function initialPageLoad() {
   const contentDiv = document.querySelector("#content");
 
@@ -11,7 +13,7 @@ export function initialPageLoad() {
 
   const topImage = document.createElement("img");
   topImage.classList.add("top-image");
-  topImage.src = "../src/assets/germ.png";
+  topImage.src = germ;
   topImage.alt = "it's a germ!";
   contentDiv.appendChild(topImage);
 

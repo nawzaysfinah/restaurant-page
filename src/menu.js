@@ -1,3 +1,5 @@
+import pichotsauce from "../src/assets/hotsauce.jpeg";
+
 export function menu() {
   const contentDiv = document.querySelector("#content");
 
@@ -13,7 +15,7 @@ export function menu() {
   // DOM for some food
   const hotSauce = document.createElement("img");
   hotSauce.classList.add("image");
-  hotSauce.src = "../src/assets/hotsauce.jpeg";
+  hotSauce.src = pichotsauce;
   hotSauce.alt = "fermented hot sauce";
   contentDiv.appendChild(hotSauce);
 
