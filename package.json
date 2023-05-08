@@ -4,7 +4,8 @@
   "description": "restaurant page for The Odin Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "style-loader": "^3.3.2",
     "webpack": "^5.82.0",
     "webpack-cli": "^5.0.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

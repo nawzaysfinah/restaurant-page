@@ -1,3 +1,5 @@
+import _ from "lodash";
+
 import { contact } from "./contact.js";
 import { initialPageLoad } from "./initial-page-load.js";
 import { menu } from "./menu.js";
